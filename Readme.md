@@ -2,11 +2,11 @@
 Пакетный менеджер бандлов для YottaCMS
 
 ## Installation
-```console
+```Bash
 composer require yottacms/yotta-unit-bundle
 ```
 ## Usage
-```console
+```YAML
 # app/config/services.yml
 \UnitExample:
     arguments: ['@service_container']
@@ -18,7 +18,7 @@ composer require yottacms/yotta-unit-bundle
 
 Настройку юнит-сервиса лучше всего делать следующим образом:
 
-```console
+```YAML
 # app/config/config.yml
 yotta_unit:
     items:
@@ -31,7 +31,7 @@ yotta_unit:
             # if bundle | widget
             entry_point: "/info" # path to entry point
 ```        
-```console    
+```PHP    
 // UnitExample.php
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use YottaCms\Bundle\YottaUnitBundle\UnitManager\UnitInterface;
