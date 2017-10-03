@@ -1,0 +1,5 @@
+services:
+    YottaCms\Bundle\YottaUnitBundle\UnitManager\Manager: ~
+
+    # aliases
+    yotta.unit_manager: '@YottaCms\Bundle\YottaUnitBundle\UnitManager\Manager'
