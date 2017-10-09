@@ -157,4 +157,9 @@ class UnitService implements \YottaCms\Bundle\YottaUnitBundle\UnitManager\UnitIn
     {
         return null;
     }
+
+    public function getType(): string
+    {
+        return 'bundle';
+    }
 }

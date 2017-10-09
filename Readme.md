@@ -26,7 +26,7 @@ yotta_unit:
             type: "bundle"      # widget | system
             name: "Unit Info"
             description: "Unit information"
-            ico: "info" # optional
+            icon: "info" # optional
             version: "0.0.1"    # optional
             # if bundle | widget
             entry_point: "/info" # path to entry point
@@ -81,6 +81,14 @@ class UnitExample implements UnitInterface
     public function getConfig(): array
     {
         return $this->configUnit;
+    }
+    
+    /**
+     * @inheritdoc
+     */
+    public function getConfig(): array
+    {
+        return $this->configUnit['type'];
     }
 }
 ```

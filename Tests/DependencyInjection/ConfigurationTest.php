@@ -30,7 +30,7 @@ class ConfigurationTest extends TestCase
                 'type'  => 'bundle',
                 'name'  => 'yotta_test_unit name',
                 'description'   => 'yotta_test_unit description',
-                'ico'   => 'yotta_test_unit ico',
+                'icon'   => 'yotta_test_unit ico',
                 'version'   => 'yotta_test_unit version',
                 'entry_point'   => 'yotta_test_unit entry_point',
             )

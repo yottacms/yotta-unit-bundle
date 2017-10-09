@@ -30,4 +30,10 @@ interface UnitInterface
      * @return array
      */
     public function getEntryPoint(): ?string;
+    
+    /**
+     * Get type
+     * @return string   bundle | widget | system
+     */
+    public function getType(): string;
 }
