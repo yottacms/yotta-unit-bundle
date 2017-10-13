@@ -86,7 +86,7 @@ class UnitExample implements UnitInterface
     /**
      * @inheritdoc
      */
-    public function getConfig(): array
+    public function getType(): string
     {
         return $this->configUnit['type'];
     }
