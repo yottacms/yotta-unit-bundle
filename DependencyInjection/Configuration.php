@@ -29,6 +29,7 @@ class Configuration implements ConfigurationInterface
                             ->scalarNode('icon')->end()
                             ->scalarNode('version')->end()
                             ->scalarNode('entry_point')->end()
+                            ->scalarNode('developer')->end()
                         ->end()
                    ->end()
                 ->end()

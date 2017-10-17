@@ -30,6 +30,7 @@ yotta_unit:
             version: "0.0.1"    # optional
             # if bundle | widget
             entry_point: "/info" # path to entry point
+            developer: true # set true to developer's bundle
 ```        
 ```PHP    
 // UnitExample.php
